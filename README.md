@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Study Hub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+}
+
+header{
+background:#667eea;
+color:white;
+padding:15px;
+position:fixed;
+width:100%;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.search-box input{
+padding:8px;
+border-radius:20px;
+border:none;
+}
+
+.hero{
+margin-top:80px;
+padding:80px;
+text-align:center;
+background:#764ba2;
+color:white;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.categories button{
+margin:5px;
+padding:10px 20px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+.subjects{
+padding:50px;
+text-align:center;
+}
+
+.subject-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+padding:20px;
+background:#f4f4f4;
+border-radius:10px;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">🌍 Global Study Hub</div>
+<div class="search-box">
+<input type="text" placeholder="Search study content...">
+</div>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Learn Anything, Anytime</h1>
+<p>All study resources at one place</p>
+
+<div class="categories">
+<button>Science</button>
+<button>Math</button>
+<button>Technology</button>
+<button>History</button>
+</div>
+</section>
+
+<section class="subjects">
+<h2>Popular Subjects</h2>
+
+<div class="subject-grid">
+
+<div class="card">
+<h3>Mathematics</h3>
+<p>Algebra, Geometry, Calculus</p>
+</div>
+
+<div class="card">
+<h3>Science</h3>
+<p>Physics, Chemistry, Biology</p>
+</div>
+
+<div class="card">
+<h3>Computer</h3>
+<p>Programming, AI, Web Dev</p>
+</div>
+
+<div class="card">
+<h3>History</h3>
+<p>World History & Events</p>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Global Study Hub | Made by Sanjay</p>
+</footer>
+
+</body>
+</html>
